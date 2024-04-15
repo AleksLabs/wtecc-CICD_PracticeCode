@@ -5,8 +5,7 @@ metadata:
 spec:
   serviceAccountName: pipeline
   triggers:
-  - bindings:
-    - ref: cd-binding
-    template:
-      ref: cd-template
-  
+    - bindings:
+      - ref: cd-binding
+      template:
+        ref: cd-template
