@@ -3,7 +3,7 @@ kind: EventListener
 metadata:
   name: cd-listener
 spec:
-  serviceAccoountName: pipeline
+  serviceAccountName: pipeline
   triggers:
   - bindings:
     - ref: cd-binding
