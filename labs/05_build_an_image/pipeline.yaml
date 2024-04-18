@@ -63,6 +63,7 @@ spec:
           workspace: pipeline-workspace
       taskRef:
         name: buildah
+        kind: ClusterTask
       params:
       - name: message
         value: "Building image for $(params.repo-url) ..."
